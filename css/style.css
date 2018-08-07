@@ -1,0 +1,49 @@
+table{
+    width: 90%;
+    height: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+}
+
+td{
+    color: #93deff;
+    width: 30%;
+    font-family: Century Gothic;
+    font-size: 6em;
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+    font-family: Century Gothic;
+    color: white;
+}
+
+body{
+    background: #595968;
+}
+
+.margen-derecha{
+    border-right: 5px solid #f7f7f7;
+}
+
+.margen-abajo{
+    border-bottom:  5px solid #f7f7f7;
+}
+
+button{
+    font-family: Century Gothic;
+    border-radius: 6px;
+    text-align: center;
+    padding: 6px 12px;
+    color:white;
+    border: none;
+    margin-left: auto;
+    margin-right: auto;
+    background: #2a2f57;
+}
+
+div{
+    text-align: center;
+}

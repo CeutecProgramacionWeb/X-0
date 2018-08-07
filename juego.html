@@ -1,0 +1,58 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <h1>
+        Mi primer X-0
+    </h1>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/script.js"></script>
+</head>
+
+<body>
+    <table id="tablero">
+        <tr>
+            <td id="arribaIzquierda" onclick="dibujarFigura('arribaIzquierda');" class="margen-derecha margen-abajo">
+                &nbsp;
+            </td>
+            <td id="arribaCentro" onclick="dibujarFigura('arribaCentro');" class="margen-derecha margen-abajo">
+                &nbsp;
+            </td>
+            <td id="arribaDerecha" onclick="dibujarFigura('arribaDerecha');"  class="margen-abajo">
+                &nbsp;
+            </td>
+        </tr>
+        <tr>
+            <td id="centroIzquierda"  onclick="dibujarFigura('centroIzquierda');"  class="margen-derecha margen-abajo">
+                &nbsp;
+            </td>
+            <td id="centroCentro" onclick="dibujarFigura('centroCentro');" class="margen-derecha margen-abajo">
+                &nbsp;
+            </td>
+            <td id="centroDerecha" onclick="dibujarFigura('centroDerecha');" class="margen-abajo">
+                &nbsp;
+            </td>
+        </tr>
+        <tr>
+            <td id="abajoIzquierda" onclick="dibujarFigura('abajoIzquierda');" class="margen-derecha">
+                &nbsp;
+            </td>
+            <td id="abajoCentro" onclick="dibujarFigura('abajoCentro');" class="margen-derecha">
+                &nbsp;
+            </td>
+            <td id="abajoDerecha" onclick="dibujarFigura('abajoDerecha');">
+                &nbsp;
+            </td>
+        </tr>
+    </table>
+</body>
+<br>
+<footer>
+    <div>
+        <button onclick="limpiarTablero();">
+            Limpiar Tablero
+        </button>
+    </div>
+</footer>
+
+</html>
